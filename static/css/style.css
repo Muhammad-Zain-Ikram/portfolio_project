@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---========== Header ==========--- */
+.custom-clip {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%);
+}
+
+/* ---========== Hero Section ==========--- */
+
+
+.top-text{
+    font-size: x-large;
+    color: #ffffff;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+hero-heading{
+    font-size: 4rem;
+    color: #ffffff;
+    margin: 12px 0 0;
+    font-weight: bolder;
+    line-height: 1;
+}
+hero-heading span{
+    color: #3DCFD3;
+}
+
+
+.buttom-text{
+    color: #898989;
+    margin: 24px 0;
+    font-size: medium;
+}
+
+
+
+
+.slider {
+    position: relative;
+    overflow: hidden;
+}
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.slide {
+    min-width: 100%;
+}
